@@ -127,35 +127,134 @@
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <img class="profile-pic" src="gopichand_profile.jpg" alt="Gopichand Kanumolu">
-            <div class="header-content">
-                <h1>Gopichand Kanumolu</h1>
-                <p>AI Researcher</p>
-                <div class="contact-info">
+        <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+            <style>
+                /* ... existing styles ... */
+                .icon-circle {
+                    background-color: #e1e4e8;
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 10px;
+                }
+                .icon-circle a {
+                    color: #24292e;
+                    text-decoration: none;
+                    display: inline-flex;
+                }
+                .icon-circle a:hover {
+                    color: #0366d6;
+                }
+            </style>
+        </head>
+        <!-- <body>
+            <header class="header">
+                <img class="profile-pic" src="gopichand_profile.jpg" alt="Gopichand Kanumolu">
+                <div class="header-content">
+                    <h1>Gopichand Kanumolu</h1>
+                    <p>AI Researcher</p>
                     <a href="mailto:gopichandkanumolu@gmail.com">gopichandkanumolu@gmail.com</a>
-                    <a href="https://scholar.google.com/citations?user=jvSZ-roAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                    <a href="https://github.com/gopichandkanumolu" target="_blank">GitHub</a>
-                    <a href="https://linkedin.com/in/gopichand-kanumolu" target="_blank">LinkedIn</a>
+                    <br>
+                    <br>
+                    <div class="contact-info">
+                        <a href="https://scholar.google.com/citations?user=jvSZ-roAAAAJ&hl=en" target="_blank">
+                            <span class="icon-circle"><i class="fas fa-graduation-cap"></i></span>
+                        </a>
+                        <a href="https://github.com/gopichandkanumolu" target="_blank">
+                            <span class="icon-circle"><i class="fab fa-github"></i></span>
+                        </a>
+                        <a href="https://linkedin.com/in/gopichand-kanumolu" target="_blank">
+                            <span class="icon-circle"><i class="fab fa-linkedin"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+        </body> -->
+
+        <header class="header">
+            <div class="profile-container">
+                <img class="profile-pic" src="gopichand_profile.jpg" alt="Gopichand Kanumolu">
+                <figcaption><strong>AI Researcher</strong></figcaption>
+            </div>
+            <div class="header-content">
+                <h1 style="text-align: center;">Gopichand Kanumolu</h1>
+                <!-- <p>AI Researcher</p> -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <a href="mailto:gopichandkanumolu@gmail.com">
+                            <span class="icon-circle"><i class="fas fa-envelope"></i></span>
+                        </a>
+                        <span>gopichandkanumolu@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://scholar.google.com/citations?user=jvSZ-roAAAAJ&hl=en" target="_blank">
+                            <span class="icon-circle"><i class="fas fa-graduation-cap"></i></span>
+                        </a>
+                        <span>Google Scholar</span>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://github.com/gopichandkanumolu" target="_blank">
+                            <span class="icon-circle"><i class="fab fa-github"></i></span>
+                        </a>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://linkedin.com/in/gopichand-kanumolu" target="_blank">
+                            <span class="icon-circle"><i class="fab fa-linkedin"></i></span>
+                        </a>
+                        <span>LinkedIn</span>
+                    </div>
                 </div>
             </div>
         </header>
 
-        <!--<nav class="nav-bar">
-            <a href="#about">About Me</a>
-            <a href="#education">Education</a>
-            <a href="#experience">Experience</a>
-            <a href="#publications">Publications</a>
-            <a href="#patents">Patents</a>
-        </nav> -->
+
+        <style>
+            /* Add this to your existing CSS */
+            /* Add the following CSS to your style block */
+            .profile-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 30px;
+                text-align: center;
+            }
+            figcaption {
+                margin-top: 10px;
+                font-size: 0.9em;
+                color: #586069;
+            }
+            .contact-info {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 22px; /* Adjust spacing between items */
+            }
+            .contact-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .icon-circle {
+                /* Your existing icon-circle styles */
+                margin-bottom: 5px; /* Add some space between the icon and the name */
+            }
+        </style>
 
         <nav class="nav-bar">
-            <a href="#about">About Me</a>
-            <a href="#education">Education</a>
-            <a href="#experience">Experience</a>
-            <a href="#publications">Publications</a>
-            <a href="#patents">Patents</a>
-            <a href="Gopichand_Resume_Researcher.pdf" target="_blank">Resume</a>
+                    <a href="#about">About Me</a>
+                    <a href="#education">Education</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#publications">Publications</a>
+                    <a href="#patents">Patents</a>
+                    <a href="Gopichand_Resume_Researcher.pdf" target="_blank">Resume</a>
+                    <!-- <a href="https://scholar.google.com/citations?user=jvSZ-roAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="https://github.com/gopichandkanumolu" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/gopichand-kanumolu" target="_blank"><i class="fab fa-linkedin"></i></a> -->
         </nav>
 
         <section id="about">
