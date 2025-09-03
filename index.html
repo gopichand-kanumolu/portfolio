@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gopichand Kanumolu | AI Researcher</title>
@@ -151,30 +152,7 @@
                 }
             </style>
         </head>
-        <!-- <body>
-            <header class="header">
-                <img class="profile-pic" src="gopichand_profile.jpg" alt="Gopichand Kanumolu">
-                <div class="header-content">
-                    <h1>Gopichand Kanumolu</h1>
-                    <p>AI Researcher</p>
-                    <a href="mailto:gopichandkanumolu@gmail.com">gopichandkanumolu@gmail.com</a>
-                    <br>
-                    <br>
-                    <div class="contact-info">
-                        <a href="https://scholar.google.com/citations?user=jvSZ-roAAAAJ&hl=en" target="_blank">
-                            <span class="icon-circle"><i class="fas fa-graduation-cap"></i></span>
-                        </a>
-                        <a href="https://github.com/gopichandkanumolu" target="_blank">
-                            <span class="icon-circle"><i class="fab fa-github"></i></span>
-                        </a>
-                        <a href="https://linkedin.com/in/gopichand-kanumolu" target="_blank">
-                            <span class="icon-circle"><i class="fab fa-linkedin"></i></span>
-                        </a>
-                    </div>
-                </div>
-            </header>
-        </body> -->
-
+      
         <header class="header">
             <div class="profile-container">
                 <img class="profile-pic" src="gopichand_profile.jpg" alt="Gopichand Kanumolu">
@@ -216,6 +194,71 @@
         <style>
             /* Add this to your existing CSS */
             /* Add the following CSS to your style block */
+            /* Add this to your existing CSS style block */
+
+            /* Add this to your existing CSS style block */
+
+            .about-card {
+                background-color: #fcfcfc;
+                border: 1px solid #e1e4e8;
+                border-radius: 6px;
+                padding: 20px;
+                margin-top: 20px;
+                transition: box-shadow 0.2s ease-in-out;
+            }
+
+            .about-card:hover {
+                box-shadow: 0 4px 8px rgba(27, 31, 35, 0.1);
+            }
+
+            .education-card {
+                background-color: #fcfcfc;
+                border: 1px solid #e1e4e8;
+                border-radius: 6px;
+                padding: 20px;
+                margin-bottom: 20px;
+                transition: box-shadow 0.2s ease-in-out;
+            }
+
+            .education-card:hover {
+                box-shadow: 0 4px 8px rgba(27, 31, 35, 0.1);
+            }
+
+            .education-card h3 {
+                margin: 0 0 5px;
+                font-size: 1.25em;
+                font-weight: 600;
+                color: #0366d6;
+            }
+
+            .education-details {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: #586069;
+                font-size: 0.9em;
+                margin-bottom: 10px;
+            }
+            /* Add to your existing CSS */
+
+            .university-name {
+                display: flex;
+                align-items: center;
+                gap: 8px; /* Adds space between the icon and the text */
+            }
+
+            .university-name i {
+                color: #0366d6; /* Matches your header link color */
+            }
+
+            .education-details {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: #586069;
+                font-size: 0.9em;
+                margin-bottom: 10px;
+            }
             .profile-container {
                 display: flex;
                 flex-direction: column;
@@ -223,6 +266,7 @@
                 margin-right: 30px;
                 text-align: center;
             }
+
             figcaption {
                 margin-top: 10px;
                 font-size: 0.9em;
@@ -243,125 +287,357 @@
                 /* Your existing icon-circle styles */
                 margin-bottom: 5px; /* Add some space between the icon and the name */
             }
+
+            /* Publications section styling */
+            .publications-grid {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .publication-card {
+                background-color: #fcfcfc; /* A slightly off-white to make it pop */
+                border: 1px solid #e1e4e8; /* Matches your nav bar border */
+                border-radius: 6px;
+                padding: 20px;
+                transition: box-shadow 0.2s ease-in-out;
+            }
+
+            .publication-card:hover {
+                box-shadow: 0 4px 8px rgba(27, 31, 35, 0.1);
+            }
+
+            .publication-title {
+                font-size: 1.25em;
+                font-weight: 600;
+                margin: 0 0 8px;
+                color: #0366d6;
+            }
+
+            .publication-authors {
+                font-style: italic;
+                color: #586069;
+                margin: 0 0 5px;
+                line-height: 1.4;
+            }
+
+            .publication-venue {
+                color: #586069;
+                font-size: 0.9em;
+                margin: 0;
+            }
+
+            .badge {
+                display: inline-block;
+                background-color: #28a745; /* A vibrant green for awards */
+                color: white;
+                font-size: 0.7em;
+                font-weight: bold;
+                padding: 3px 8px;
+                border-radius: 20px;
+                margin-left: 10px;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+            .publication-title a {
+                color: inherit; /* Inherits the color from the parent h3 */
+                text-decoration: none; /* Removes the underline */
+            }
+
+            .publication-title a:hover {
+                text-decoration: underline; /* Adds underline on hover for a good user experience */
+            }
+
+
+            /* Add this to your existing style block */
+            .experience-grid {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .experience-card {
+                background-color: #fcfcfc;
+                border: 1px solid #e1e4e8;
+                border-radius: 6px;
+                padding: 20px;
+                transition: box-shadow 0.2s ease-in-out;
+            }
+
+            .experience-card:hover {
+                box-shadow: 0 4px 8px rgba(27, 31, 35, 0.1);
+            }
+
+            .job-title {
+                font-size: 1.25em;
+                font-weight: 600;
+                margin: 0 0 5px;
+                color: #0366d6;
+            }
+
+            .company-name {
+                font-size: 1.1em;
+                font-weight: 500;
+                margin: 0 0 5px;
+                color: #24292e;
+            }
+
+            .job-details {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 15px;
+                color: #586069;
+            }
+
+            .job-details span {
+                font-size: 0.9em;
+            }
+
+            .job-description li {
+                margin-bottom: 8px;
+            }
+            /* Add this to your existing style block */
+            .experience-card {
+                margin-bottom: 20px; /* Add some space at the bottom of each card */
+            }
+
+            /* Add this to your existing style block */
+
+            .nav-bar {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px; /* Provides consistent spacing between links */
+                padding: 10px;
+                border: 1px solid #e1e4e8;
+                border-radius: 6px;
+                background-color: #fff; /* A cleaner white background */
+                box-shadow: 0 1px 3px rgba(27, 31, 35, 0.05); /* Soft shadow for depth */
+            }
+
+            .nav-link {
+                display: flex;
+                align-items: center;
+                gap: 8px; /* Space between icon and text */
+                padding: 8px 12px;
+                color: #586069; /* Softer text color */
+                text-decoration: none;
+                font-weight: 500;
+                border-radius: 4px;
+                transition: background-color 0.2s, color 0.2s;
+            }
+
+            .nav-link:hover {
+                background-color: #f6f8fa; /* Subtle background change on hover */
+                color: #0366d6; /* Highlight color on hover */
+            }
+
+            .nav-link i {
+                color: #8b949e; /* Default icon color */
+                transition: color 0.2s;
+            }
+
+            .nav-link:hover i {
+                color: #0366d6; /* Change icon color on hover */
+            }
+
+            /* Style for the active link (to be added by JavaScript) */
+            .nav-link.active {
+                background-color: #0366d6;
+                color: #fff;
+                font-weight: 600;
+            }
+
+            .nav-link.active i {
+                color: #fff;
+            }
+
+            /* Style for the Resume link to make it stand out */
+            .resume-link {
+                background-color: #0366d6;
+                color: #fff;
+                font-weight: 600;
+            }
+
+            .resume-link:hover {
+                background-color: #0366d6;
+                color: #fff;
+            }
+
         </style>
 
         <nav class="nav-bar">
-                    <a href="#about">About Me</a>
-                    <a href="#education">Education</a>
-                    <a href="#experience">Experience</a>
-                    <a href="#publications">Publications</a>
-                    <a href="#patents">Patents</a>
-                    <a href="Gopichand_Resume_Researcher.pdf" target="_blank">Resume</a>
-                    <!-- <a href="https://scholar.google.com/citations?user=jvSZ-roAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
-                    <a href="https://github.com/gopichandkanumolu" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/gopichand-kanumolu" target="_blank"><i class="fab fa-linkedin"></i></a> -->
+            <a href="#about" class="nav-link"><i class="fas fa-user-circle"></i> About Me</a>
+            <a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a>
+            <a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> Experience</a>
+            <a href="#publications" class="nav-link"><i class="fas fa-book"></i> Publications</a>
+            <a href="#patents" class="nav-link"><i class="fas fa-file-invoice"></i> Patents</a>
+            <a href="Gopichand_Resume_Researcher.pdf" target="_blank" class="nav-link"><i class="fas fa-download"></i> Resume</a>
         </nav>
 
         <section id="about">
             <h2>About Me</h2>
-            <p>
-                I am a passionate AI Researcher with a Master of Science by Research in Computer Science Engineering from the International Institute of Information Technology Hyderabad (IIIT-H). My research interests lie in <strong>Multi-lingual NLP</strong> and the <strong>Trustworthy aspects of Generative AI</strong>. I have published multiple research papers and filed patents in collaboration with cross-functional teams.
-            </p>
+            <div class="about-card">
+                <p>
+                    I am a passionate AI Researcher with a Master of Science by Research in Computer Science Engineering from the International Institute of Information Technology Hyderabad (IIIT-H). My research interests lie in <strong>Multi-lingual NLP</strong> and the <strong>Trustworthy aspects of Generative AI</strong>. I have published multiple research papers and filed patents in collaboration with cross-functional teams.
+                </p>
+            </div>
         </section>
 
         <section id="education">
             <h2>Education</h2>
-            <div class="section-item">
-                <h3>Master of Science by Research in Computer Science Engineering</h3>
-                <p><strong>International Institute of Information Technology Hyderabad (IIIT-H)</strong> | Jan 2021 - June 2024</p>
-                <p>CGPA: 9.5/10</p>
-            </div>
-            <div class="section-item">
-                <h3>Bachelor of Technology in Electronics & Communication Engineering</h3>
-                <p><strong>Rajiv Gandhi University of Knowledge Technologies, Nuzvid</strong> | Aug 2015 - May 2019</p>
-                <p>CGPA: 8.59/10</p>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>Master of Science by Research in Computer Science Engineering</h3>
+                    <div class="education-details">
+                        <div class="university-name">
+                            <i class="fas fa-university"></i>
+                            <span>International Institute of Information Technology Hyderabad (IIIT Hyderabad)</span>
+                        </div>
+                        <span>Jan 2021 - June 2024</span>
+                    </div>
+                    <p>CGPA: 9.5/10</p>
+                </div>
+                <div class="education-card">
+                    <h3>Bachelor of Technology in Electronics & Communication Engineering</h3>
+                    <div class="education-details">
+                        <div class="university-name">
+                            <i class="fas fa-university"></i>
+                            <span>Rajiv Gandhi University of Knowledge Technologies, Nuzvid</span>
+                        </div>
+                        <span>Aug 2015 - May 2019</span>
+                    </div>
+                    <p>CGPA: 8.59/10</p>
+                </div>
             </div>
         </section>
 
         <section id="experience">
             <h2>Experience</h2>
-            <div class="section-item">
-                <h3>AI Researcher | TCS Research</h3>
-                <p>Aug 2024 - Present, Hyderabad, India</p>
-                <ul>
-                    <li>Developed a novel LLM hallucination detection system that outperforms current state-of-the-art methods by 30%.</li>
-                    <li>Designed a multi-agent system to generate product business ideas from patents using the CrewAI framework.</li>
-                    <li>Evaluated biases in LLMs across multiple categories, benchmarking models with diverse datasets and metrics.</li>
-                    <li>Published research papers and filed patents in collaboration with cross-functional teams.</li>
-                </ul>
-            </div>
-            <div class="section-item">
-                <h3>ML Mentor | TalentSprint</h3>
-                <p>Apr 2024 - Aug 2024, Hyderabad, India</p>
-                <ul>
-                    <li>Mentored over 200 industry professionals in building and evaluating an advanced RAG system.</li>
-                    <li>Evaluated assignments and hackathons on Python, ML, DL, and NLP for the AI/ML course.</li>
-                </ul>
-            </div>
-            <div class="section-item">
-                <h3>NLP Research Assistant | IIIT Hyderabad</h3>
-                <p>Jan 2022 - Jun 2024, Hyderabad, India</p>
-                <ul>
-                    <li>Published four research papers as part of my master's thesis under the supervision of Prof. Manish Shrivastava.</li>
-                    <li>Built a large-scale dataset and fine-tuned mT5 and IndicBART models for headline generation in 8 Indian languages.</li>
-                    <li>Introduced a novel Telugu dataset and fine-tuned ML & BERT-based models for relevance-based headline classification.</li>
-                    <li>Improved the performance of the headline generation model up to 6% by using relevance-based headline classification.</li>
-                </ul>
-            </div>
-            <div class="section-item">
-                <h3>NLP Research Intern | IIIT Hyderabad</h3>
-                <p>Dec 2019 - Nov 2021, Remote</p>
-                <ul>
-                    <li>Designed efficient web scrapers to collect data from 47 diverse news websites in 8 Indian languages.</li>
-                    <li>Created a high-quality abstractive summarization dataset for Telugu and fine-tuned IndicBART and mT5 models.</li>
-                    <li>Built a Telugu QA pipeline combining query classification, translation, sparse retrieval, and NER for answer extraction.</li>
-                </ul>
+            <div class="experience-grid">
+
+                <div class="experience-card">
+                    <h3 class="job-title">AI Researcher</h3>
+                    <p class="company-name">TCS Research</p>
+                    <div class="job-details">
+                        <span>Aug 2024 - Present</span>
+                        <span>Hyderabad, India</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Developed a novel LLM hallucination detection system that outperforms current state-of-the-art methods by 30%.</li>
+                        <li>Designed a multi-agent system to generate product business ideas from patents using the CrewAI framework.</li>
+                        <li>Evaluated biases in LLMs across multiple categories, benchmarking models with diverse datasets and metrics.</li>
+                        <li>Published research papers and filed patents in collaboration with cross-functional teams.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <h3 class="job-title">ML Mentor</h3>
+                    <p class="company-name">TalentSprint</p>
+                    <div class="job-details">
+                        <span>Apr 2024 - Aug 2024</span>
+                        <span>Hyderabad, India</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Mentored over 200 industry professionals in building and evaluating an advanced RAG system.</li>
+                        <li>Evaluated assignments and hackathons on Python, ML, DL, and NLP for the AI/ML course.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <h3 class="job-title">NLP Research Assistant</h3>
+                    <p class="company-name">IIIT Hyderabad</p>
+                    <div class="job-details">
+                        <span>Jan 2022 - Jun 2024</span>
+                        <span>Hyderabad, India</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Published four research papers as part of my master's thesis under the supervision of Prof. Manish Shrivastava.</li>
+                        <li>Built a large-scale dataset and fine-tuned mT5 and IndicBART models for headline generation in 8 Indian languages.</li>
+                        <li>Introduced a novel Telugu dataset and fine-tuned ML & BERT-based models for relevance-based headline classification.</li>
+                        <li>Improved the performance of the headline generation model up to 6% by using relevance-based headline classification.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <h3 class="job-title">NLP Research Intern</h3>
+                    <p class="company-name">IIIT Hyderabad</p>
+                    <div class="job-details">
+                        <span>Dec 2019 - Nov 2021</span>
+                        <span>Remote</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Designed efficient web scrapers to collect data from 47 diverse news websites in 8 Indian languages.</li>
+                        <li>Created a high-quality abstractive summarization dataset for Telugu and fine-tuned IndicBART and mT5 models.</li>
+                        <li>Built a Telugu QA pipeline combining query classification, translation, sparse retrieval, and NER for answer extraction.</li>
+                    </ul>
+                </div>
+
             </div>
         </section>
 
         <section id="publications">
             <h2>Publications</h2>
-            <ul>
-                <li>
-                    <strong>HalluCounter: Reference-free LLM Hallucination Detection in the Wild!</strong>
-                    <br>Ashok Urlana, Gopichand Kanumolu, CV Kumar, BM Garlapati, Rahul Mishra. Submitted to ACL ARR 2025 (Under Review).
-                </li>
-                <li>
-                    <strong>Agent Ideate: A Framework for Product Idea Generation from Patents Using Agentic AI.</strong>
-                    <br>Gopichand Kanumolu, Ashok Urlana, CV Kumar, BM Garlapati. Proceedings of the 2nd Workshop on Agent AI for Scenario Planning, IJCAI 2025.
-                </li>
-                <li>
-                    <strong>No LLM is Free From Bias: A Comprehensive Study of Bias Evaluation in Large Language models.</strong>
-                    <br>CV Kumar, Ashok Urlana, Gopichand Kanumolu, BM Garlapati. Proceedings of the 5th Workshop on Bias and Fairness in AI, ECML-PKDD 2025.
-                </li>
-                <li>
-                    <strong>TeClass: A Relevance-based Headline Classification and Generation Dataset for Telugu.</strong>
-                    <br>Gopichand Kanumolu, Lokesh Madasu, Nirmal Surange, Manish Shrivastava. Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024).
-                </li>
-                <li>
-                    <strong>Mukhyansh: A Headline Generation Dataset for Indic Languages.</strong>
-                    <br>Lokesh Madasu, Gopichand Kanumolu, Nirmal Surange, Manish Shrivastava. Proceedings of the 37th Pacific Asia Conference on Language, Information and Computation (PACLIC 2023).
-                </li>
-                <li>
-                    <strong>Unsupervised Approach to Evaluate Sentence-Level Fluency.</strong>
-                    <br>Gopichand Kanumolu, Lokesh Madasu, Pavan Baswani, Ananya Mukherjee, Manish Shrivastava. Accepted to SEALP Workshop, IJCNLP-AACL 2023. Best Paper Award.
-                </li>
-                <li>
-                    <strong>SemRel2024: A Collection of Semantic Textual Relatedness Datasets for 13 Languages.</strong>
-                    <br>Nedjma Ousidhoum, Shamsuddeen, Alham Fikri Aji, Gopichand Kanumolu, Manish Shrivastava, Thamar Solorio et al. Findings of the Association for Computational Linguistics: ACL 2024.
-                </li>
-            </ul>
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <h3 class="publication-title">
+                        <a href="https://arxiv.org/pdf/2503.04615" target="_blank">HalluCounter: Reference-free LLM Hallucination Detection in the Wild!</a>
+                    </h3>
+                    <p class="publication-authors">Ashok Urlana, <strong>Gopichand Kanumolu</strong>, CV Kumar, BM Garlapati, Rahul Mishra.</p>
+                    <p class="publication-venue">Submitted to ACL ARR 2025 (Under Review).</p>
+                </div>
+                
+                <div class="publication-card">
+                    <h3 class="publication-title"><a href="https://aclanthology.org/2025.agentscen-1.6.pdf" target="_blank">Agent Ideate: A Framework for Product Idea Generation from Patents Using Agentic AI.</a></h3>
+                    <p class="publication-authors"><strong>Gopichand Kanumolu</strong>, Ashok Urlana, CV Kumar, BM Garlapati.</p>
+                    <p class="publication-venue">Proceedings of the 2nd Workshop on Agent AI for Scenario Planning, IJCAI 2025.</p>
+                </div>
+                
+                <div class="publication-card">
+                    <h3 class="publication-title"><a href="https://arxiv.org/pdf/2503.11985" target="_blank">No LLM is Free From Bias: A Comprehensive Study of Bias Evaluation in Large Language models.</a></h3>
+                    <p class="publication-authors">CV Kumar, Ashok Urlana, <strong>Gopichand Kanumolu</strong>, BM Garlapati.</p>
+                    <p class="publication-venue">Proceedings of the 5th Workshop on Bias and Fairness in AI, ECML-PKDD 2025.</p>
+                </div>
+                
+                <div class="publication-card">
+                    <h3 class="publication-title"><a href="https://aclanthology.org/2024.lrec-main.1364.pdf" target="_blank">TeClass: A Relevance-based Headline Classification and Generation Dataset for Telugu.</a></h3>
+                    <p class="publication-authors"><strong>Gopichand Kanumolu</strong>, Lokesh Madasu, Nirmal Surange, Manish Shrivastava.</p>
+                    <p class="publication-venue">Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024).</p>
+                </div>
+                
+                <div class="publication-card">
+                    <h3 class="publication-title"><a href="https://aclanthology.org/2023.paclic-1.62.pdf" target="_blank">Mukhyansh: A Headline Generation Dataset for Indic Languages.</a></h3>
+                    <p class="publication-authors">Lokesh Madasu, <strong>Gopichand Kanumolu</strong>, Nirmal Surange, Manish Shrivastava.</p>
+                    <p class="publication-venue">Proceedings of the 37th Pacific Asia Conference on Language, Information and Computation (PACLIC 2023).</p>
+                </div>
+                
+                <div class="publication-card">
+                    <h3 class="publication-title"><a href="https://arxiv.org/pdf/2312.01500.pdf" target="_blank">Unsupervised Approach to Evaluate Sentence-Level Fluency.</a></h3>
+                    <p class="publication-authors"><strong>Gopichand Kanumolu</strong>, Lokesh Madasu, Pavan Baswani, Ananya Mukherjee, Manish Shrivastava.</p>
+                    <p class="publication-venue">Accepted to SEALP Workshop, IJCNLP-AACL 2023. <a href="https://drive.google.com/file/d/1WC92se-8KJRqhHEmx0yarwgHLShW7ACu/view?usp=sharing" target="_blank"><span class="badge">Best Paper Award</span></a></p>
+                </div>
+                
+                <div class="publication-card">
+                    <h3 class="publication-title"><a href="https://aclanthology.org/2024.findings-acl.147.pdf" target="_blank">SemRel2024: A Collection of Semantic Textual Relatedness Datasets for 13 Languages.</a></h3>
+                    <p class="publication-authors">Nedjma Ousidhoum, Shamsuddeen, Alham Fikri Aji, <strong>Gopichand Kanumolu</strong>, Manish Shrivastava, Thamar Solorio et al.</p>
+                    <p class="publication-venue">Findings of the Association for Computational Linguistics: ACL 2024.</p>
+                </div>
+            </div>
         </section>
 
         <section id="patents">
             <h2>Patents</h2>
-            <ul>
-                <li>
-                    <strong>A Method and System for Reference-Free Hallucination Detection in Large Language Models.</strong>
-                    <br>Patent Application Filed (India, US, and EPO), Priority Date: Nov 28, 2024. Inventors: Ashok Urlana, CV Kumar, Gopichand Kanumolu, BM Garlapati, Ajeet K Singh. Organization: TCS CTO Unit.
-                </li>
-            </ul>
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <h3 class="publication-title">A Method and System for Reference-Free Hallucination Detection in Large Language Models.</h3>
+                    <p class="publication-authors">Inventors: Ashok Urlana, CV Kumar, <strong>Gopichand Kanumolu</strong>, BM Garlapati, Ajeet K Singh.</p>
+                    <p class="publication-venue">Patent Application Filed (India, US, and EPO) | Priority Date: Nov 28, 2024</p>
+                    <p class="publication-venue">Organization: TCS CTO Unit</p>
+                </div>
+            </div>
         </section>
+
     </div>
 </body>
 </html>
